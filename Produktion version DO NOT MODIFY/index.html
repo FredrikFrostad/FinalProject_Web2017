@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="stylesheet2.css">
+		<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"> <!-- font-family: 'Quicksand', sans-serif; -->
+
+		
+		
+		<title>Final Assignment</title>
+	</head>
+	<body>
+		<div class="navbar logo setfont" id="getResponsive">
+			<a href="index.html">Home</a>
+			<a href="problem.html">Our Problem</a>
+			<a href="solution.html">Our Solution</a>
+			<a href="group.html">The Group</a>
+			<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="navResponsive()">&#9776;</a>
+		</div>
+		<div class="jumbotron">
+			<div class="jumbo-banner setfont">
+				<h1>FINAL PROJECT</h1>
+				<h2>reclaim your privacy</h2>
+			</div>
+		</div>
+	</body>
+	<script>
+		function navResponsive() {
+			var res = document.getElementById("getResponsive");
+			if (res.className === "navbar logo setfont") {
+				res.className += " responsive logo setfont";
+			}
+			else {
+				res.className = "navbar logo setfont"
+			}
+		}
+	</script>
+</html>
